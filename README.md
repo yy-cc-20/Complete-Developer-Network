@@ -25,7 +25,7 @@ This is a RESTful API project built using ASP.NET Core Web API to manage a direc
 - [License](#license)
 
 ## Introduction
-The CDN - Complete Developer Network project aims to provide a directory of freelancers that can be used by companies or individuals to find and hire the right talent for their projects. This RESTful API allows users to register, update, delete, and retrieve information about freelancers.
+The CDN - Complete Developer Network project aims to provide a directory of freelancers that can be used by themselves to find and hire the right talent for their projects. This RESTful API allows users to register, update, delete, and retrieve information about freelancers.
 
 ## Features
 - Register a new freelancer
