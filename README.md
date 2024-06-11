@@ -45,8 +45,7 @@ The CDN - Complete Developer Network project aims to provide a directory of free
 
 ### Prerequisites
 - [.NET Core SDK](https://dotnet.microsoft.com/download)
-- [MySQL](https://www.mysql.com/downloads/) (or any other RDBMS of your choice)
-- [Redis](https://redis.io/download) (optional, for caching strategy)
+- [MySQL](https://www.mysql.com/downloads/) 
 
 ### Installation
 1. Clone the repository:
