@@ -37,11 +37,8 @@ The CDN - Complete Developer Network project aims to provide a directory of free
 ## Technologies Used
 - ASP.NET Core Web API
 - Entity Framework Core
-- MySQL (or any other RDBMS of your choice)
-- JSON Web Tokens (JWT) for authentication
-- Redis (or any other caching solution) for caching strategy
+- MySQL 
 - Swagger for API documentation
-- xUnit for unit testing
 - Azure DevOps for CI/CD
 
 ## Getting Started
