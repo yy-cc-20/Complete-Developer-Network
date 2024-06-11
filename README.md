@@ -40,6 +40,7 @@ The CDN - Complete Developer Network project aims to provide a directory of free
 - MySQL 
 - Swagger for API documentation
 - Azure DevOps for CI/CD
+- Git
 
 ## Getting Started
 
@@ -52,44 +53,26 @@ The CDN - Complete Developer Network project aims to provide a directory of free
    ```
    git clone https://github.com/your-username/cdn-developer-network.git
    ```
-2. Navigate to the project directory:
-   ```
-   cd cdn-developer-network
-   ```
-3. Restore the project dependencies:
-   ```
-   dotnet restore
-   ```
+2. Open the project in Visual Studio
+3. Install any necessary dependencies
 4. Update the database connection string in the `appsettings.json` file.
-5. Apply the database migrations:
-   ```
-   dotnet ef database update
-   ```
+5. Apply the database migrations
 6. Run the application:
-   ```
-   dotnet run
-   ```
 7. The API will be available at `https://localhost:5001/api/v1/users`.
 
 ## API Endpoints
 
 ### User Endpoints
-- `GET /api/v1/users`: Retrieve a list of all registered freelancers.
-- `GET /api/v1/users/{id}`: Retrieve details of a specific freelancer.
-- `POST /api/v1/users`: Register a new freelancer.
-- `PUT /api/v1/users/{id}`: Update an existing freelancer's details.
-- `DELETE /api/v1/users/{id}`: Delete a freelancer from the system.
+- `GET /api/users`: Retrieve a list of all registered freelancers.
+- `GET /api/users/{id}`: Retrieve details of a specific freelancer.
+- `POST /api/users`: Register a new freelancer.
+- `PUT /api/users/{id}`: Update an existing freelancer's details.
+- `DELETE /api/users/{id}`: Delete a freelancer from the system.
 
 ## Database Integration
-The project uses Entity Framework Core to interact with the MySQL (or any other RDBMS) database. The `UserDbContext` class is responsible for managing the `User` entity and its mapping to the database.
+The project uses Entity Framework Core to interact with the MySQL database. The `UserDbContext` class is responsible for managing the `User` entity and its mapping to the database.
 
-## Additional Features
-
-### Securing the Endpoint
-The API endpoints are secured using JWT (JSON Web Tokens) for authentication and authorization.
-
-### Caching Strategy
-The project implements a caching strategy using Redis (or any other caching solution) to improve the performance of the API.
+## Additional Features (To be continued)
 
 ### Pagination
 The "Get All Users" endpoint supports pagination to handle large datasets efficiently.
@@ -105,12 +88,3 @@ The project uses Azure DevOps (or any other CI/CD tool) to set up a continuous i
 
 ## Design Pattern
 The project follows the Clean Architecture or the CQRS (Command Query Responsibility Segregation) pattern to ensure maintainability and scalability.
-
-## Demonstration
-During the interview session, I will demonstrate the functionality of the API, including querying data, adding data, updating data, and removing data.
-
-## Contributing
-If you would like to contribute to this project, please feel free to submit a pull request or open an issue.
-
-## License
-This project is licensed under the [MIT License](LICENSE).
