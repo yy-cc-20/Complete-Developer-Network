@@ -12,7 +12,7 @@ This is a RESTful API project built using ASP.NET Core Web API to manage a direc
 - [API Endpoints](#api-endpoints)
   - [User Endpoints](#user-endpoints)
 - [Database Integration](#database-integration)
-- [Additional Features](#additional-features)
+- [Additional Features](#additional-features) (To be continued)
   - [Securing the Endpoint](#securing-the-endpoint)
   - [Caching Strategy](#caching-strategy)
   - [Pagination](#pagination)
@@ -20,9 +20,6 @@ This is a RESTful API project built using ASP.NET Core Web API to manage a direc
   - [Testing Strategy](#testing-strategy)
   - [CI/CD](#ci-cd)
 - [Design Pattern](#design-pattern)
-- [Demonstration](#demonstration)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 The CDN - Complete Developer Network project aims to provide a directory of freelancers that can be used by themselves to find and hire the right talent for their projects. This RESTful API allows users to register, update, delete, and retrieve information about freelancers.
