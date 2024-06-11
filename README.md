@@ -2,6 +2,9 @@
 
 This is a RESTful API project built using ASP.NET Core Web API to manage a directory of freelancers for the CDN - Complete Developer Network.
 
+![image](https://github.com/yy-cc-20/Complete-Developer-Network/assets/65067887/99cfc511-d6a3-40a3-8472-f18761d32fbb)
+
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
