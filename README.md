@@ -71,6 +71,9 @@ The project uses Entity Framework Core to interact with the MySQL database. The 
 
 ## Additional Features (To be continued)
 
+### Securing the Endpoint
+The API endpoints are secured using JWT (JSON Web Tokens) for authentication and authorization.
+
 ### Pagination
 The "Get All Users" endpoint supports pagination to handle large datasets efficiently.
 
